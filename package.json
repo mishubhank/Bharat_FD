@@ -1,0 +1,29 @@
+{
+  "name": "backedn_assingment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
+    "@prisma/client": "^6.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "google-translate-api": "^2.3.0",
+    "redis": "^4.7.0",
+    "zod": "^3.24.1"
+  }
+}
